@@ -1,5 +1,7 @@
 # Version Control and Branch Management (Git)
 
+Link Praktikum: https://github.com/mikamada/praktikum_git
+
 ## Resume
 
 Dalam materi section 2 ini mempelajari:
