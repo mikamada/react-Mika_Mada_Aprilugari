@@ -1,0 +1,39 @@
+body {
+  font-family: "Slabo 27px", serif;
+  position: relative;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  margin-left: 210px;
+}
+
+.green {
+  width: 350px;
+  height: 350px;
+  background-color: green;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 20px;
+}
