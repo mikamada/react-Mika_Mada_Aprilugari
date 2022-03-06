@@ -1,0 +1,119 @@
+/* navbar */
+.navbar {
+  background-color: white;
+  height: 70px;
+}
+/* end navbar */
+
+/* title */
+.title {
+  margin-top: 100px;
+  min-height: 400px;
+}
+
+.title h1,
+h6.sub-title {
+  font-weight: 300;
+  color: #867a7a;
+}
+
+.title .card .icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+.title .card .card-body {
+  padding: 10px 2px 5px 2px;
+}
+
+.title .card .card-body .card-title {
+  font-size: 13px;
+}
+
+.title .card .card-body .card-text {
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #867a7a;
+}
+
+.title .card .card-body p a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+/* end title */
+
+/* hero */
+.hero {
+  min-height: 600px;
+}
+.hero .hero-img img {
+  width: 250px;
+  right: 20px;
+}
+
+.hero .title-hero span {
+  font-weight: 300;
+  color: #867a7a;
+  font-size: 28px;
+}
+
+.hero p {
+  color: #867a7a !important;
+  font-weight: 300;
+}
+
+.hero .text-hero p.dropdown a {
+  color: #867a7a;
+}
+/* end hero */
+
+/* footer */
+footer {
+  min-height: 300px;
+  width: 100%;
+  bottom: 0;
+}
+
+footer .bg-dark {
+  min-height: 250px;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(180, 180, 180);
+}
+
+footer h6 {
+  font-weight: 600;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(180, 180, 180);
+  font-size: 13px;
+}
+
+footer ul li a:hover {
+  color: wheat;
+}
+
+footer .copy {
+  min-height: 90px;
+  width: 100%;
+  background-color: white;
+}
+
+footer .copy p {
+  color: rgb(65, 65, 65);
+  font-size: 14px;
+}
+
+footer .copy p span {
+  font-weight: 700;
+}
+/* end footer */
