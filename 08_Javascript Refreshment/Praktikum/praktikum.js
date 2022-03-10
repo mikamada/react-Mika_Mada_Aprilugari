@@ -31,3 +31,7 @@ a = b;
 console.log("a adalah = " + a);
 console.log("b adalah = " + b);
 perkenalan();
+
+let bdays = ["10-17", "05-17", "20-19"];
+let bdays2 = bdays.map(e => e.replace(/-/g,"/"));
+console.log(bdays2);

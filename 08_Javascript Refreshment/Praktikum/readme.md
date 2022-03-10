@@ -15,10 +15,8 @@
    ```
 4. ```javascript
    let bdays = ["10-17", "05-17", "20-19"];
-   bdays[0] = "10/17";
-   bdays[1] = "05/17";
-   bdays[2] = "20/19";
-   console.log(bdays);
+   let bdays2 = bdays.map((e) => e.replace(/-/g, "/"));
+   console.log(bdays2);
    // ['10/17', '05/17', '20/19']
    ```
 5. ```javascript
