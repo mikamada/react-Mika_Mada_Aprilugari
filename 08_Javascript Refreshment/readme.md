@@ -1,4 +1,5 @@
 # Javascript
+link tugas essay: https://github.com/mikamada/react-Mika_Mada_Aprilugari/blob/master/08_Javascript%20Refreshment/Praktikum/readme.md
 
 Javascript adalah bahasa pemograman yang Hight-level, Scripting, Untyped dan Interpreted.
 
