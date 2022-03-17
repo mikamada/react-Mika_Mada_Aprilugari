@@ -30,7 +30,7 @@ const List = (toDo) => {
 				<li>
 					<div className="bd-list">
 						<p
-							className={`${toDo.completed ? 'coret' : ''}`}
+							className="title"
 							style={{
 								textDecorationLine: toDo.completed ? 'line-through' : '',
 							}}
