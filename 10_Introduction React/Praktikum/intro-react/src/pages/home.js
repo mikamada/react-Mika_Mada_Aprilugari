@@ -1,16 +1,16 @@
 import React from 'react';
 // import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 class Home extends React.Component{
-    render(){
-        return(
+render(){
+return(
             
-                <div>
-                <header>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
-                    <div class="alterra">
-                        <a href="index.html"><img class="logo-atas" src="asset/img/logo-ALTA@2x.png" /></a>
+<div>
+<header>
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-8 col-md-12 col-sm-12 col-12">
+<div class="alterra">    
+<a href="index.html"><img class="logo-atas" src="asset/img/logo-ALTA@2x.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
