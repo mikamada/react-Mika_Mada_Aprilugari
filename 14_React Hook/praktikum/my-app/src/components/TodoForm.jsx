@@ -13,12 +13,12 @@ const TodoForm = (props) => {
 		e.preventDefault();
 		const formIsNotEmpty = data.title;
 		if (formIsNotEmpty) {
-			const newData = {
+			const newTodo = {
 				title: data.title,
 			};
-			props.tambahTodo(newData);
+			props.tambahTodo(newTodo);
 			setData({
-				nama: '',
+				title: '',
 			});
 		} else {
 			alert('Data masih ada yang kosong!');

@@ -25,9 +25,9 @@ const Home = () => {
 		);
 	};
 
-	const tambahTodo = (newUser) => {
-		const newPengunjung = { id: uuidv4(), ...newUser };
-		setData((oldData) => [...oldData, newPengunjung]);
+	const tambahTodo = (newTodo) => {
+		const newItem = { id: uuidv4(), ...newTodo };
+		setData((oldData) => [...oldData, newItem]);
 	};
 
 	return (
