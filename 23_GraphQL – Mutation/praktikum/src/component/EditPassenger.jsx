@@ -1,28 +1,11 @@
 import { useLocation } from 'react-router-dom';
 import { useState } from 'react';
-import { getPassenger } from './Home';
-import { gql, useMutation } from '@apollo/client';
-
-const editDataPassenger = gql`
-	mutation MyMutation3($pk_id: pengunjung_pk_columns_input!) {
-		update_pengunjung_by_pk(pk_columns: $pk_id) {
-			id
-			nama
-			umur
-			jenis_kelamin
-		}
-	}
-`;
+import useEditPassenger from '../hooks/useEditDataPassenger';
 
 const EditPassenger = (props) => {
-	const [editAction, { loading: loadingEdit }] = useMutation(
-		editDataPassenger,
-		{
-			refetchQueries: [getPassenger],
-		}
-	);
-
 	const location = useLocation();
+
+	const { editAction, loadingEdit } = useEditPassenger();
 
 	const [editData, setEditData] = useState({
 		nama: location.state.nama,
@@ -51,7 +34,7 @@ const EditPassenger = (props) => {
 	};
 
 	if (loadingEdit) {
-		<div>Loading....</div>;
+		<span>Loading....</span>;
 	}
 
 	return (
