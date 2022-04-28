@@ -4,7 +4,7 @@ import { useLinkClickHandler } from 'react-router-dom';
 
 const ListItem = ({ onEditAction, ...props }) => {
 	const { id, nama, umur, jenis_kelamin } = props.data;
-	const handleClick = useLinkClickHandler(`/edit/${nama}`, {
+	const handleClick = useLinkClickHandler(`/edit/${id}`, {
 		state: props.data,
 	});
 

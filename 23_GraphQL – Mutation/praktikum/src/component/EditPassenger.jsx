@@ -23,12 +23,10 @@ const EditPassenger = (props) => {
 	const handleSubmit = () => {
 		editAction({
 			variables: {
-				pk_id: {
-					id: location.state.id,
-					nama: editData.nama,
-					umur: editData.umur,
-					jenis_kelamin: editData.jenis_kelamin,
-				},
+				id: location.state.id,
+				nama: editData.nama,
+				umur: editData.umur,
+				jenis_kelamin: editData.jenis_kelamin,
 			},
 		});
 	};

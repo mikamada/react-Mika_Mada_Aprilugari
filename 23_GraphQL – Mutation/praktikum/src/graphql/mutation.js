@@ -18,12 +18,13 @@ export const InsertNewPassenger = gql`
 `;
 
 export const EditDataPassenger = gql`
-	mutation MyMutation3($pk_id: pengunjung_pk_columns_input!) {
-		update_pengunjung_by_pk(pk_columns: $pk_id) {
-			id
-			nama
-			umur
-			jenis_kelamin
-		}
-	}
+	mutation MyMutation($id: uuid, $nama: String, $umur: Int, $jenis_kelamin: String ) {
+  update_pengunjung(where: {id: {_eq: $id}}, _set: {nama: $nama, umur: $umur, jenis_kelamin: $jenis_kelamin}) {
+    returning {
+      id
+      nama
+    }
+  }
+}
+
 `;
